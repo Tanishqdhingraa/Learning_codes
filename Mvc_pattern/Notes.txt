@@ -1,0 +1,23 @@
+Request → Route → Controller → Model → Controller → Response
+
+
+MVC stands for Model–View–Controller.
+It is a design pattern used to organize backend applications by 
+separating responsibilities.
+Model handles the data and database logic.
+View is what the client sees (in backend APIs, this is usually the JSON response).
+Controller contains the business logic and connects the Model with the View.
+
+--------------------------------------------------------------------------------------------------------
+
+
+How we use it:
+In Express apps, routes receive requests, controllers process the logic, models interact with 
+the database, and the controller sends a response back to the client.
+
+--------------------------------------------------------------------------------------------------------
+
+Why we use it:
+We use MVC to keep code clean, modular, and scalable. It makes the project easier to maintain, 
+debug, and work on in a team because each part has a clear responsibility.
+
